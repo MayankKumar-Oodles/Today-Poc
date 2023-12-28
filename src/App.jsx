@@ -1,6 +1,7 @@
 import { ReactDOM } from "react";
 import { Component } from "react";
 import MyComponent from "./Classbased/MyComponent";
+import Counter from "./Classbased/Counter";
  
  class App extends Component{
           constructor(props){
@@ -13,6 +14,7 @@ import MyComponent from "./Classbased/MyComponent";
           render(){
                 return<>
                  <MyComponent day={this.state.day}></MyComponent>
+                 <Counter></Counter>
                 </>
           }
  }

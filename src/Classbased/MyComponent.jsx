@@ -32,9 +32,12 @@ class MyComponent extends Component{
     }
 
     componentDidMount(){
-        console.log("component did mount call");
+        console.log("componentdidmount call");
     }
-    
+    shouldComponentUpdate(){
+        console.log("shouldComponentUpdate");
+        return false;
+    }
     render(){
         console.log("render method call");
         return <>
