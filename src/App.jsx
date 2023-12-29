@@ -5,7 +5,7 @@ import MyComponent from "./Classbased/MyComponent";
 // import Counter from "./Classbased/Counter";
 import FavouriteColor from "./functionalbased/FavouriteColor";
 import Counter from "./functionalbased/Counter";
- 
+ import Component1 from "./functionalbased/Relation";
  
  class App extends Component{
           constructor(props){
@@ -20,8 +20,9 @@ import Counter from "./functionalbased/Counter";
                  {/* <MyComponent day={this.state.day}></MyComponent>
                  <Counter></Counter> */}
                  {/* <FavouriteColor/> */}
-                 <Timer/>
-                 <Counter/>
+                 {/* <Timer/>
+                 <Counter/> */}
+                 <Component1/>
                      
                   
                 </>
