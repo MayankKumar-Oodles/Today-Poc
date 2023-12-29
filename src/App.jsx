@@ -6,6 +6,8 @@ import MyComponent from "./Classbased/MyComponent";
 import FavouriteColor from "./functionalbased/FavouriteColor";
 import Counter from "./functionalbased/Counter";
  import Component1 from "./functionalbased/Relation";
+import Parent from "./functionalbased/Parent";
+import Child from "./functionalbased/Child";
  
  class App extends Component{
           constructor(props){
@@ -22,7 +24,10 @@ import Counter from "./functionalbased/Counter";
                  {/* <FavouriteColor/> */}
                  {/* <Timer/>
                  <Counter/> */}
-                 <Component1/>
+                 {/* <Component1/> */}
+                   <Parent>
+          
+                   </Parent>
                      
                   
                 </>

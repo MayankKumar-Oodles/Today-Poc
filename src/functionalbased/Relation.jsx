@@ -26,8 +26,7 @@ function Component1(){
                 
             </>
    );
-       
-}
+       }
 
 
    function Component3({user}){
