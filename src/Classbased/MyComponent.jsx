@@ -30,6 +30,7 @@ class MyComponent extends Component{
             return null;
 
     }
+    
 
     componentDidMount(){
         console.log("componentdidmount call");
