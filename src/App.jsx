@@ -2,6 +2,7 @@ import { ReactDOM } from "react";
 import { Component } from "react";
 import MyComponent from "./Classbased/MyComponent";
 import Counter from "./Classbased/Counter";
+import FavouriteColor from "./functionalbased/FavouriteColor";
  
  class App extends Component{
           constructor(props){
@@ -13,8 +14,10 @@ import Counter from "./Classbased/Counter";
           }
           render(){
                 return<>
-                 <MyComponent day={this.state.day}></MyComponent>
-                 <Counter></Counter>
+                 {/* <MyComponent day={this.state.day}></MyComponent>
+                 <Counter></Counter> */}
+                 <FavouriteColor/>
+                  
                 </>
           }
  }
