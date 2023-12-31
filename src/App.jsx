@@ -8,7 +8,7 @@ import Counter from "./functionalbased/Counter";
  import Component1 from "./functionalbased/Relation";
 import Parent from "./functionalbased/Parent";
 import Child from "./functionalbased/Child";
- 
+import Input from "./functionalbased/Input";
  class App extends Component{
           constructor(props){
             super(props);
@@ -25,9 +25,10 @@ import Child from "./functionalbased/Child";
                  {/* <Timer/>
                  <Counter/> */}
                  {/* <Component1/> */}
-                   <Parent>
+                   <Parent/>
+                   <Input/>
           
-                   </Parent>
+                 
                      
                   
                 </>
