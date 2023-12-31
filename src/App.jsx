@@ -9,6 +9,7 @@ import Counter from "./functionalbased/Counter";
 import Parent from "./functionalbased/Parent";
 import Child from "./functionalbased/Child";
 import Input from "./functionalbased/Input";
+import UseReducer from "./functionalbased/UseReducer";
  class App extends Component{
           constructor(props){
             super(props);
@@ -25,8 +26,9 @@ import Input from "./functionalbased/Input";
                  {/* <Timer/>
                  <Counter/> */}
                  {/* <Component1/> */}
-                   <Parent/>
-                   <Input/>
+                   {/* <Parent/>
+                   <Input/> */}
+                   <UseReducer/>
           
                  
                      
