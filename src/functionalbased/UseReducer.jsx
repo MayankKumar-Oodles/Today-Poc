@@ -12,12 +12,13 @@ const reducer =(state,action)=>{
 const UseReducer = () => {
 
    const [state , dispatch]=useReducer(reducer,0);
-   
+    
+    
     
   return (
     <div>
 
-          <h1>{state}</h1>
+          <h1>{state}</h1>  
           <button   onClick={()=>{dispatch({type:"INCREMENT"})}}>Inc</button>
           <button   onClick={()=>{dispatch({type:"DECREMENT"})}}>Dec</button>
       
