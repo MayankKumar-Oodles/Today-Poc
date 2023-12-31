@@ -11,6 +11,7 @@ import Child from "./functionalbased/Child";
 import Input from "./functionalbased/Input";
 import UseReducer from "./functionalbased/UseReducer";
 import UseMemo from "./functionalbased/UseMemo";
+import UseCallback from "./functionalbased/UseCallback";
  class App extends Component{
           constructor(props){
             super(props);
@@ -30,7 +31,8 @@ import UseMemo from "./functionalbased/UseMemo";
                    {/* <Parent/>
                    <Input/> */}
                    {/* <UseReducer/> */}
-                  <UseMemo/>
+                  {/* <UseMemo/> */}
+                  <UseCallback/>
 
           
                  
